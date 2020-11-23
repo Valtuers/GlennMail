@@ -2,18 +2,21 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.glennmail</groupId>
-    <artifactId>glennmail</artifactId>
+    <groupId>com.glennmall</groupId>
+    <artifactId>glennmall</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>glennmail</name>
+    <name>glennmall</name>
     <description>聚合服务</description>
     <packaging>pom</packaging>
 
     <modules>
-        <module>glennmail-coupon</module>
-        <module>glennmail-member</module>
-        <module>glennmail-order</module>
-        <module>glennmail-product</module>
-        <module>glennmail-ware</module>
+        <module>glennmall-coupon</module>
+        <module>glennmall-member</module>
+        <module>glennmall-order</module>
+        <module>glennmall-product</module>
+        <module>glennmall-ware</module>
+        <module>glennmall-admin</module>
+        <module>renren-generator</module>
+        <module>glennmall-common</module>
     </modules>
 </project>

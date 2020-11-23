@@ -1,0 +1,24 @@
+server:
+  port: 2000
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/glennmall_ums?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: glennmall-member
+
+mybatis-plus:
+  type-aliases-package: com.glennmall.member.entity
+  mapper-locations: classpath:com/glennmall/member/dao/mapper/*.xml
+  #id自增
+  global-config:
+    db-config:
+      id-type: auto
+
